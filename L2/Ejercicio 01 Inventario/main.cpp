@@ -44,7 +44,7 @@ void movimientoInventario (string codigo, int cantidad, string tipoMovimiento){
 
 void ajustePositivo(){
     //llama la funcion para aumentar la cantidad de productos
-    ingresoInventario();
+    movimientoInventario();
 }
 
 void ingresoInventario(){
@@ -67,7 +67,7 @@ void ingresoInventario(){
 
 void ajusteNegativo(){
     //llama la funcion para disminuir la cantidad del producto.
-    salidaInventario();
+    movimientoInventario();
 }
 
 void salidaInventario(){
