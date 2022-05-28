@@ -44,12 +44,13 @@ void movimientoInventario (string codigo, int cantidad, string tipoMovimiento){
 
 void ajustePositivo(){
     //llama la funcion para aumentar la cantidad de productos
-    movimientoInventario();
+    movimientoInventario(codigoProducto, cantidad, "+");
 }
 
-void ingresoInventario(){
     string codigoProducto= "";
     int cantidad = 0;
+
+void ingresoInventario(){
 
     system("cls");
     cout<<endl;
@@ -67,7 +68,7 @@ void ingresoInventario(){
 
 void ajusteNegativo(){
     //llama la funcion para disminuir la cantidad del producto.
-    movimientoInventario();
+    movimientoInventario(codigoProducto, cantidad, "+");
 }
 
 void salidaInventario(){
