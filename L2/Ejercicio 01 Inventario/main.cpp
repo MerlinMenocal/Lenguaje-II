@@ -42,15 +42,10 @@ void movimientoInventario (string codigo, int cantidad, string tipoMovimiento){
    
 }
 
-void ajustePositivo(){
-    //llama la funcion para aumentar la cantidad de productos
-    movimientoInventario(codigoProducto, cantidad, "+");
-}
-
-    string codigoProducto= "";
-    int cantidad = 0;
 
 void ingresoInventario(){
+    string codigoProducto= "";
+    int cantidad = 0;
 
     system("cls");
     cout<<endl;
@@ -63,11 +58,6 @@ void ingresoInventario(){
     cin>>cantidad;
     cout<<endl;
 
-    movimientoInventario(codigoProducto, cantidad, "+");
-}
-
-void ajusteNegativo(){
-    //llama la funcion para disminuir la cantidad del producto.
     movimientoInventario(codigoProducto, cantidad, "+");
 }
 
@@ -89,6 +79,46 @@ void salidaInventario(){
     movimientoInventario(codigoProducto, cantidad, "-");
 }
 
+void ajustePositivo(){
+
+    string codigoProducto= "";
+    int cantidad = 0;
+
+    system("cls");
+    cout<<endl;
+    cout<<"AJUSTED POSITIVOS AL INVENTARIO"<<endl;
+    cout<<"**********************************"<<endl;
+    cout<<"Ingrese el Codigo de Producto: ";
+    cin>>codigoProducto;
+    cout<<endl;
+    cout<<"Ingrese la cantidad del Producto: ";
+    cin>>cantidad;
+    cout<<endl;
+
+    //llama la funcion para aumentar la cantidad de productos
+    movimientoInventario(codigoProducto, cantidad, "+");
+    } 
+
+    void ajusteNegativo(){
+    string codigoProducto= "";
+    int cantidad = 0;
+
+    system("cls");
+    cout<<endl;
+    cout<<"AJUSTES NEGATIVOS AL INVENTARIO"<<endl;
+    cout<<"**********************************"<<endl;
+    cout<<"Ingrese el Codigo de Producto: ";
+    cin>>codigoProducto;
+    cout<<endl;
+    cout<<"Ingrese la cantidad del Producto: ";
+    cin>>cantidad;
+    cout<<endl;
+
+    //llama la funcion para disminuir la cantidad del producto.
+    movimientoInventario(codigoProducto, cantidad, "-");
+}
+
+
 int main(int argc, char const *argv[])
 {
 
@@ -106,6 +136,7 @@ int main(int argc, char const *argv[])
         cout<<"4- Ajuste Positivo "<<endl;
         cout<<"5- Ajuste Negativo "<<endl;
         cout<<"0- Salir "<<endl;
+
 
 
         cout<<"Ingrese una Opcion: ";
