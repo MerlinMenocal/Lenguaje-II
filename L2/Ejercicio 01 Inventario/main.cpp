@@ -137,8 +137,6 @@ int main(int argc, char const *argv[])
         cout<<"5- Ajuste Negativo "<<endl;
         cout<<"0- Salir "<<endl;
 
-
-
         cout<<"Ingrese una Opcion: ";
         cin>>opcion;
 
