@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <string>
+#include <string>
 #include <algorithm>
 #include <time.h>
 
@@ -86,8 +86,8 @@ int main(int argc, char const *argv[])
 
                 cout<<"Otras Sugerencias..."<<endl;
                 cout<<"Sugerencia 1: "<< libros[sugerencia1][1]<<endl;
-                cout<<"Sugerencia 2: "<< libros[sugerencia2][2]<<endl;
-                cout<<"Sugerencia 3: "<< libros[sugerencia3][3]<<endl;
+                cout<<"Sugerencia 2: "<< libros[sugerencia2][1]<<endl;
+                cout<<"Sugerencia 3: "<< libros[sugerencia3][1]<<endl;
 
                 salir = true;
                 break;
@@ -102,7 +102,7 @@ int main(int argc, char const *argv[])
             while (true)
             {
                 system("cls");
-                cout<<"No se encontro el Libro que Buscas. Desea continuar? s/n"<<endl;
+                cout<<"No se encontro el Libro que Buscas. Desea continuar? s/n "<<endl;
                 cin>>continuar;
 
                 if (continuar == 's' || continuar == 'S')
