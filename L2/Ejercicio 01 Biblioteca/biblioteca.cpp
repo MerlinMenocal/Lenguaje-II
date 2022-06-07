@@ -85,9 +85,9 @@ int main(int argc, char const *argv[])
                 int sugerencia3 = rand()% 38 + 1;
 
                 cout<<"Otras Sugerencias..."<<endl;
-                cout <<"Sugerencia 1: "<< libros[sugerencia1][1]<<endl;
-                cout <<"Sugerencia 2: "<< libros[sugerencia2][2]<<endl;
-                cout <<"Sugerencia 3: "<< libros[sugerencia3][3]<<endl;
+                cout<<"Sugerencia 1: "<< libros[sugerencia1][1]<<endl;
+                cout<<"Sugerencia 2: "<< libros[sugerencia2][2]<<endl;
+                cout<<"Sugerencia 3: "<< libros[sugerencia3][3]<<endl;
 
                 salir = true;
                 break;
