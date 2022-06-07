@@ -83,7 +83,9 @@ int main(int argc, char const *argv[])
 
                 //autores
                 int autor1 = rand()% 38 + 1;
-                cout<<"Autor(es): "<<libros[autor1][2]<<endl;
+                cout<<"││Autor(es): "<<libros[autor1][2]<<endl;
+
+                cout<<endl;
 
                 int sugerencia1 = rand()% 38 + 1;
                 int sugerencia2 = rand()% 38 + 1;
