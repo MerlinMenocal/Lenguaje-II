@@ -92,8 +92,7 @@ int main(int argc, char const *argv[])
                 salir = true;
                 break;
             }
-
-            
+    
         }
         
         if (salir== false)
