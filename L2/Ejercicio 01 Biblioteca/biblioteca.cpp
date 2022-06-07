@@ -4,11 +4,12 @@
 #include <time.h>
 
 using namespace std;
+
 string libros[39][2];
 
 void cargarLibros(){
     // Arreglo con Categoria y descripcion	
-	string libros[39][2];
+	//string libros[39][2];
 	libros[0][0] = "Algoritmos"; libros[0][1] = "Algoritmos y Programacion (Guia para docentes)";
 	libros[1][0] = "Algoritmos"; libros[1][1] = "Apuntes de Algoritmos y Estructuras de Datos";
 	libros[2][0] = "Algoritmos"; libros[2][1] = "Breves Notas sobre Analisis de Algoritmos";
@@ -72,12 +73,12 @@ int main(int argc, char const *argv[])
             string libroEnminuscula = libro;
             //transformamos el texto en minusculas
             transform(libroEnminuscula.begin(), libroEnminuscula.end(), libroEnminuscula.begin(), ::tolower);
-            string buscarEnMinuscula = buscar;
+            //string buscarEnMinuscula = buscar;
             transform(buscar.begin(), buscar.end(), buscar.begin(), ::tolower);
 
             if (libroEnminuscula.find(buscar) != string::npos)
             {
-                cout<<"Libro encontrado: "<<libros[i][1]<<endl;
+                cout<<"Libro encontrado: "<<libro <<endl;
 
                 int sugerencia1 = rand()% 38 + 1;
                 int sugerencia2 = rand()% 38 + 1;
@@ -91,6 +92,7 @@ int main(int argc, char const *argv[])
                 salir = true;
                 break;
             }
+
             
         }
         
@@ -106,9 +108,10 @@ int main(int argc, char const *argv[])
                 if (continuar == 's' || continuar == 'S')
                 {
                     break;
-                }else if(continuar == 'n' || continuar =='N')
+                }else if(continuar == 'n' || continuar =='N'){
                     salir = true;
                     break;
+                }    
             }
             
         }
@@ -116,6 +119,7 @@ int main(int argc, char const *argv[])
 
     }
     
+  
 
     return 0;
 }
