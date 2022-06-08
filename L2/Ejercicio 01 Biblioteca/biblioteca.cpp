@@ -18,9 +18,9 @@ void cargarLibros(){
 	libros[5][0] = "Algoritmos"; libros[5][1] = "Teoria sintactico-gramatical de objetos"; libros[5][2] = "VICTOR HUGO";
 	libros[6][0] = "Base de Datos"; libros[6][1] = "Apuntes de Base de Datos 1"; libros[6][2] = "CHARLES DICKENS";
 	libros[7][0] = "Base de Datos"; libros[7][1] = "Base de Datos (2005)"; libros[7][2] = "HERMAN MELVILLE";
-	libros[8][0] = "Base de Datos"; libros[8][1] = "Base de Datos (2011)"; libros[8][2] = "FIÓDOR DOSTOYEVSKI";
+	libros[8][0] = "Base de Datos"; libros[8][1] = "Base de Datos (2011)"; libros[8][2] = "FIODOR DOSTOYEVSKI";
 	libros[9][0] = "Base de Datos"; libros[9][1] = "Base de Datos Avanzadas (2013)"; libros[9][2] = "JULIO VERNE ";
-	libros[10][0] = "Base de Datos"; libros[10][1] = "Diseno Conceptual de Bases de Datos"; libros[10][2] = "LEÓN TOLSTÓI";
+	libros[10][0] = "Base de Datos"; libros[10][1] = "Diseno Conceptual de Bases de Datos"; libros[10][2] = "LEON TOLSTOI";
 	libros[11][0] = "Ciencia Computacional"; libros[11][1] = "Breves Notas sobre Automatas y Lenguajes"; libros[11][2] = "EMILE ZOLA";
 	libros[12][0] = "Ciencia Computacional"; libros[12][1] = "Breves Notas sobre Teoria de la Computacion"; libros[12][2] = "BRAM STOKER";
 	libros[13][0] = "Metodologias de desarrollo de software"; libros[13][1] = "Compendio de Ingenieria del Software"; libros[13][2] = "OSCAR WILDE";
@@ -41,7 +41,7 @@ void cargarLibros(){
 	libros[28][0] = "PHP"; libros[28][1] = "Symfony 2.4, el libro oficial"; libros[28][2] = "CARLOS FUENTES";
 	libros[29][0] = "Python"; libros[29][1] = "Aprenda a pensar como un programador (con Python)"; libros[29][2] = "EMILY BRONTE";
 	libros[30][0] = "Python"; libros[30][1] = "Doma de Serpientes para Ninos: Aprendiendo a Programar con Python"; libros[30][2] = "FRANCISCO QUEVEDO";
-	libros[31][0] = "Python"; libros[31][1] = "Inmersion en Python"; libros[31][2] = "ROBERTO BOLAÑO";
+	libros[31][0] = "Python"; libros[31][1] = "Inmersion en Python"; libros[31][2] = "ROBERTO BOLANO";
 	libros[32][0] = "Python"; libros[32][1] = "Inmersion en Python 3"; libros[32][2] = "DANTE ALIGHIERI";
 	libros[33][0] = "Python"; libros[33][1] = "Introduccion a la programacion con Python"; libros[33][2] = "MIGUEL DE CERVANTES SAAVEDRA";
 	libros[34][0] = "Python"; libros[34][1] = "Introduccion a Programando con Python"; libros[34][2] = "DR. CAMILO CRUZ";
