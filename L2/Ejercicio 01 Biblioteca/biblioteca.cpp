@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
         //Busqueda
         for (int i = 0; i <39; i++)
         {
-            string libro = libros[i][1];
+            string libro = libros[i][1] + libros[i][2];
             string libroEnminuscula = libro;
             //transformamos el texto en minusculas
             transform(libroEnminuscula.begin(), libroEnminuscula.end(), libroEnminuscula.begin(), ::tolower);
@@ -80,10 +80,9 @@ int main(int argc, char const *argv[])
             {
                 cout<<"Libro encontrado: "<<libro <<endl<<endl;
 
-
                 //autores
                 int autor1 = rand()% 38 + 1;
-                cout<<"││Autor(es): "<<libros[autor1][2]<<endl;
+                cout<<"--> Autor: "<<libros[autor1][2]<<endl;
 
                 cout<<endl;
 
