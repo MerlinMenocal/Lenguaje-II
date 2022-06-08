@@ -65,6 +65,7 @@ int main(int argc, char const *argv[])
         system("cls");
         cout<<"Ingrese la descripcion del Libro que busca: ";
         cin>>buscar;
+        cout<<endl;
 
         //Busqueda
         for (int i = 0; i <39; i++)
