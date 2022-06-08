@@ -95,10 +95,10 @@ int main(int argc, char const *argv[])
                 int autorSugerencia2 = rand()% 38 + 1;
                 int autorSugerencia3 = rand()% 38 + 1;
 
-                cout<<"  Otras Sugerencias..."<<endl;
-                cout<<"Sugerencia 1: "<< libros[sugerencia1][1]<<" --> "<<libros[autorSugerencia3][2]<<endl;
-                cout<<"Sugerencia 2: "<< libros[sugerencia2][1]<<endl;
-                cout<<"Sugerencia 3: "<< libros[sugerencia3][1]<<endl;
+                cout<<" Otras Sugerencias..."<<endl;
+                cout<<"Sugerencia 1: "<< libros[sugerencia1][1]<<" --> "<<libros[autorSugerencia1][2]<<endl;
+                cout<<"Sugerencia 2: "<< libros[sugerencia2][1]<<" --> "<<libros[autorSugerencia2][2]<<endl;
+                cout<<"Sugerencia 3: "<< libros[sugerencia3][1]<<" --> "<<libros[autorSugerencia3][2]<<endl;
 
 
                 salir = true;
