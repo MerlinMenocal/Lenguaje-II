@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
         //Busqueda
         for (int i = 0; i <39; i++)
         {
-            string libro = libros[i][1] + libros[i][2];
+            string libro = libros[i][1];  // + libros[i][2];
             string libroEnminuscula = libro;
             //transformamos el texto en minusculas
             transform(libroEnminuscula.begin(), libroEnminuscula.end(), libroEnminuscula.begin(), ::tolower);
