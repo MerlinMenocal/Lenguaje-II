@@ -25,16 +25,18 @@ int main(int argc, char const *argv[])
         switch (opcion)
         {
         case 1:
+            system("cls");
             starShip();
             break;
         case 2:
+            system("cls");
             snake();
             break;
         
         default:
             break;
         }
-        system("cls");
+        system("pause");
         cout<<endl;
 
         if (opcion == 0)
