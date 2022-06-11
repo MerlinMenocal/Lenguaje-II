@@ -205,7 +205,7 @@ int snake()
 	}
 	
 	if ( !gameover()){
-		MessageBox(NULL,"Has perdido","Perdedor", MB_OK);
+		MessageBox(NULL, "Has perdido", "Perdedor", MB_OK);
 		system("cls");
 	}
 	
