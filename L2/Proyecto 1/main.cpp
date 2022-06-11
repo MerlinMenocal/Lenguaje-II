@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
         default:
             break;
         }
-        system("pause");
+        system("cls");
         cout<<endl;
 
         if (opcion == 0)
