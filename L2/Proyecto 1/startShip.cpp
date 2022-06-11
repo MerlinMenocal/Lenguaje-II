@@ -120,7 +120,8 @@ void SpecialMessage()
 {
     DrawWhiteSpace(1, 1, 80, 24);
     gotoxy(30, 11);
-    printf("Gracias por jugar! :3");
+    printf("Gracias por jugar!");
+    system("cls");
 }
 
 class SpaceShip

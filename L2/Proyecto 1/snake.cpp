@@ -35,7 +35,7 @@ void inicializarArreglo()
 
 void dificultad() 
 {
-	cout<<"Snake \n elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
+	cout<<"Snake \n\n elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
 	cin>>d;
 	switch(d){
 		case 1:
