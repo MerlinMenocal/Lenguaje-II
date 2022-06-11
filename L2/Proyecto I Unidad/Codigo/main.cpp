@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "startShip.h"
-//#include "snake.h"
+#include "startShip.h"
+#include "snake.h"
 
 using namespace std;
 
@@ -16,8 +16,8 @@ int main(int argc, char const *argv[])
         cout<<"MENU DE JUEGOS"<<endl;
         cout<<"**************"<<endl<<endl;
 
-        cout<<"1- StarShip"<<endl;
-        cout<<"2- Snake"<<endl;
+        cout<<"1- StarShip"<<endl<<endl;
+        cout<<"2- Snake"<<endl<<endl;
 
         cout<<"Ingrese un numero del menu para seleccionar un juego:"<<endl;
         cin>>opcion;
@@ -25,10 +25,12 @@ int main(int argc, char const *argv[])
         switch (opcion)
         {
         case 1:
-            //starShip();
+             system("cls");
+            starShip();
             break;
         case 2:
-            //snake();
+            system("cls");
+            snake();
             break;
         
         default:
