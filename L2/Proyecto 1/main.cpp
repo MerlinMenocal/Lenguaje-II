@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "startShip.h"
-//#include "snake.h"
+#include "startShip.h"
+#include "snake.h"
 
 using namespace std;
 
@@ -25,10 +25,10 @@ int main(int argc, char const *argv[])
         switch (opcion)
         {
         case 1:
-            //starShip();
+            starShip();
             break;
         case 2:
-            //snake();
+            snake();
             break;
         
         default:
