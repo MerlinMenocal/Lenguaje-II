@@ -26,16 +26,16 @@ int main(int argc, char const *argv[])
         {
         case 1:
             starShip();
-            system("cls");
             break;
         case 2:
             snake();
-            system("cls");
             break;
         
         default:
             break;
         }
+        system("pause");
+        cout<<endl;
 
         if (opcion == 0)
         {
