@@ -106,8 +106,7 @@ void ajustePositivo(){
     system("cls");
     cout<<endl;
     cout<<"AJUSTES NEGATIVOS AL INVENTARIO"<<endl;
-    cout<<"*******************************
-    "<<endl;
+    cout<<"*******************************"<<endl;
     cout<<"Ingrese el Codigo de Producto: ";
     cin>>codigoProducto;
     cout<<endl;
