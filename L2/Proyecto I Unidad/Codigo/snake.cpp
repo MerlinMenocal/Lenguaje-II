@@ -148,7 +148,7 @@ bool gameover()
 
 void puntosx()
 {
-	tiempo=tiempo+0.05;
+	tiempo=tiempo+0.15;
 	int tiempo2=tiempo;
 	gotoxySnake(35,2);cout<<tiempo;
 	if (x==xxc && y== yyc){
